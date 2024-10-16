@@ -1,0 +1,129 @@
+.header{
+    background-color: rgb(0, 0, 26);
+    color: white;
+    height: 75px;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    right: 0px;
+    left: 0px;  
+    z-index: 100;
+}
+
+.logo{
+    margin-top: 25px;
+    margin-left: 20px;
+    height: 30px;
+}
+.Titles{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: right;
+    padding-left: 450px;
+  
+}
+.home-button,
+.company-button,
+.brand-button,
+.buisness-buton,
+.news-button,
+.sustainability-button,
+.career-button,
+.contact-button{
+    background-color: rgb(0, 0, 26);
+    cursor: pointer;
+    color: white;
+    border: none;
+    font-size: 17px;
+    margin-right: 25px;
+    font-weight: 100px;
+    transition: 1s;
+}
+.home-button:hover,
+.company-button:hover,
+.brand-button:hover,
+.buisness-buton:hover,
+.news-button:hover,
+.sustainability-button:hover,
+.career-button:hover,
+.contact-button:hover{
+    color: red;
+    transition: 1s;
+}
+
+.image1{
+width: 100%;
+height: 1080px;
+background-image: url("https://www.parleagro.com/uploads/images/063929FROOTI_Digital_2024_PAPL-WEB_1.jpg");
+background-position: center;
+background-size: cover;
+}
+.image2-edit{
+    height: 500px;
+    padding-left: 150px;
+    padding-top: 180px;
+
+}
+.image2{
+    position: relative;
+}
+.main-text{
+    color: white;
+    font-weight: 800px;
+    font-size: 50px;
+    position: absolute;
+    text-align: center;
+    top: 250px;
+}
+.content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 600%;
+}
+.Orange{
+    background-color: #F09130;
+    height: 1000px;
+    padding: 120px;
+}
+.white{
+    background-color: white;
+    height: 1000px;
+    align-items: center;
+    padding: 120px;
+}
+.para{
+    font-size: 25px;
+    font-weight: 400px;
+    line-height: 1.2;
+    text-align: center;
+    text-align: left;  
+}
+    .image-3{
+        width: 100%;
+        height: 1080px;
+        background-image: url("https://www.parleagro.com/uploads/images/093629FROOTI_Pack_Digital_1920x1080_2023.jpg");
+        background-position: center;
+        background-size: cover;
+}
+.footer{
+display: flex;
+text-align: left;
+flex: 1 1 1;
+color: black;
+justify-content: space-between;
+margin-top: 50px;
+margin-left: 50px;
+margin-right: 150px;
+align-items: start;
+}
+.apps-icons{
+    display: flex;
+    flex-direction: row;
+}
+.fb-button,
+.insta-button,
+.twitter-button,
+.youtube-button{
+    margin-right: 7px;
+}
